@@ -18,6 +18,9 @@ function Header() {
                 <h3 style={h3Style}>
                     <Link style={linkStyle} to="/amthal">Amthal</Link>
                 </h3>
+                <h3 style={h3Style}>
+                    <Link style={linkStyle} to="/gallery">Gallery</Link>
+                </h3>
             </div>
         </div>
     );

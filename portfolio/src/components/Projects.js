@@ -9,7 +9,7 @@ function Projects() {
       <div>
         {
           PROJECTS.map(PROJECT=>{
-            return <Project project={PROJECT} />
+            return <Project key={PROJECT.id}  project={PROJECT} />
           })
         }
       </div>

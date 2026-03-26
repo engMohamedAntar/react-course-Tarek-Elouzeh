@@ -64,3 +64,17 @@ body {
 .project button:hover {
   opacity: 0.5;
 }
+
+.gallery {
+  max-width: 300px;
+  display: inline-block;
+  margin: 30px;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+.gallery img:hover{
+  opacity: 0.5;
+}

@@ -6,7 +6,7 @@ function Social() {
       <h2>Reach out</h2>
       {
         SOCIAL_ICONS.map((SOCIAL_ICON) => {
-            return <SocialIcon social_icon={SOCIAL_ICON} />;
+            return <SocialIcon key={SOCIAL_ICON.id} social_icon={SOCIAL_ICON} />;
         })
       }
     </div>

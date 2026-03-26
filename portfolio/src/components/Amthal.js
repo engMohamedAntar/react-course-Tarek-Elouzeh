@@ -23,8 +23,8 @@ function Amthal() {
       <hr />
       <button className="btn" onClick={fetchAmthal}>المزيد من الامثال</button>
       {
-        amathal.map((amthal) => {
-          return <p>{amthal.title}</p>;
+        amathal.map((mathal) => {
+          return <p key={mathal.id}>{mathal.title}</p>;
         })
       }
     </div>
